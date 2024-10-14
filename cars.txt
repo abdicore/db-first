@@ -13,3 +13,5 @@ color                       tinyint         null
 heating                     varchart(2)     null
 tires                       varchart(10)    null
 emissions                   varchart(10)    not null
+car heating                 varchart(10)    null
+car stereo                  varchart(20)    null
