@@ -1,0 +1,15 @@
+Nome tabella: cars
+
+number_chassis              smallint        primary key
+breand                      varchart(15)    not null
+modell                      varchart(25)    not null
+registresion_year           date            not null    
+km                          tinyint         null
+fuel_type                   varchart(10)    not null
+engine_displacement         tinyint         not null
+horsepower                  tinyint         not null
+doors                       varchart(5)     null
+color                       tinyint         null
+heating                     varchart(2)     null
+tires                       varchart(10)    null
+emissions                   varchart(10)    not null
