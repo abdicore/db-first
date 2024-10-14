@@ -1,6 +1,6 @@
 Nome tabella: cars
 
-number_chassis              smallint        primary key
+number_chassis              smallint        not null  primary key
 breand                      varchart(15)    not null
 modell                      varchart(25)    not null
 registresion_year           date            not null    
